@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n=12,i,j,m=23;
+	clrscr();
+	for(i=4;i<=n;i++)
+	{
+		for(j=1;j<=n-i;j++)
+		printf(" ");
+		for(j=8;j<=2*i-1;j++)
+		printf("*");
+		printf("\n\t\t");
+	}
+	printf("\n");
+	printf("\t\t    |	   |\n\t\t    |	   |\n\t\t    |	   |\n\t\t    |	   |\n");
+	for(i=22;i<=m;i++)
+	{
+		for(j=1;j<=m-i;j++)
+		printf(" ");
+		for(j=1;j<=2*i-1;j++)
+		printf("_");
+		printf("\n");
+	}
+	puts("\nA Small house created by Suman D De using loops");
+	getch();
+}
